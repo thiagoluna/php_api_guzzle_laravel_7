@@ -11,8 +11,9 @@ Com o ***Javascript*** consumo os dados de CEP da API [viacep](https://viacep.co
 Para rodar a aplicação em seu pc:
 - Fazer o clone deste repositório
 - Rodar composer install
-- Instalar o Guzzle com composer require guzzlehttp/guzzle:~6.0
-- Rodar o php artisan migrate
-- Rodar a aplicação pelo php artisan serve e rodar a API pelo localhost.
+- Instalar o Guzzle com composer `require guzzlehttp/guzzle:~6.0`
+- Parametrizar o .env com os dados de acesso ao banco de dados
+- Rodar o `php artisan migrate`
+- Rodar a aplicação pelo `php artisan serve` e rodar a API pelo localhost.
 Esta é uma forma de fazer o Guzzle consumir a API que está rodando em seu pc.
 
